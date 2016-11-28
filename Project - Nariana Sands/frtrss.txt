@@ -1,0 +1,50 @@
+R1	Compare folders with different file names
+R2	Need to exclude folders even with exclude filter
+R3	Break up long lines (XML/?HTML) on given character(s)
+R4	Compare profiles
+R5	Preserve Creation Date
+R6	Option to ignore Tabs and Spaces in Compare
+R7	Make unpacker extensions configurable
+R8	Allow comments to be made with each difference
+R9	Allow quoted filenames in "Select Files or Folders"
+R10	Allow new instance to start even if Select Files or Folders dialog is open
+R11	Add Pause button to Folder Compare Progress dialog
+R12	Launch WinMerge with window size not maximized
+R13	Toggle view mode icons on toolbar
+R14	Filter a line difference, not just the whole line
+R15	Display cursor coordinates for Diff Pane
+R16	Open documents with URL
+R17	Compare non sequential file parts
+R18	Support partial line filters
+R19	Displaying line numbers for wrapped lines
+R20	Compare identification in top hierarchy of Archive files
+R21	Allow multiple comparisons
+R22	Allow double-click on tab to close window
+R23	Add rev-number to svn-build's Help-->Info
+R24	Close buttons on the tabs
+R25	compare XML tags only, ignore text
+R26	Rename tabs.
+R27	Add toolbar buttons for the View /? Show menu items
+R28	Detect moved files while comparing folders
+R29	Support Windows 7 taskbar-based progress bar
+R30	Enhance the comparison statisics report.
+R31	Add Toolbar button for changing white space/?line end option
+R32	Show warning when encoding /? character set isn't equal
+R33	Store compare method in project
+R34	Run folder comparison in background
+R35	Ignore paragraph returns in PDF docs
+R36	Limit Text Columns
+R37	Merge only preceding and trailing whitespace
+R38	Please allow ISO date format
+R39	Show only differences in display/?report
+R40	Start WinMerge with Configuation File
+R41	Display file timestamps in maximum file-system precision
+R42	Print Entire Manual instead of selecting each subtopic
+R43	pass the line number to the external editor
+R44	Enable syntax highlighting inside differences
+R45	Enable CTRL-C for all message boxes
+R46	Open Folder Containing File
+R47	Open Multiple Conflict Files
+R48	store a list of the compared pairs of files/?folders
+R49	Maintain position of left/?right file divider
+R50	Make search dialog stay open

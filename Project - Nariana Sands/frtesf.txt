@@ -1,0 +1,10 @@
+R1	Compare folders with different file names
+R2	Need to exclude folders even with exclude filter
+R3	Break up long lines (XML/?HTML) on given character(s)
+R4	Compare profiles
+R5	Preserve Creation Date
+R6	Option to ignore Tabs and Spaces in Compare
+R7	Make unpacker extensions configurable
+R8	Allow comments to be made with each difference
+R9	Allow quoted filenames in "Select Files or Folders"
+R10	Allow new instance to start even if Select Files or Folders dialog is open
