@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
+import edu.stanford.nlp.ling.CoreAnnotations.TextAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
@@ -13,36 +14,57 @@ import edu.stanford.nlp.util.CoreMap;
 
 public class POS {
 	public static void main(String [] args){
-		String featureRequest = args[0]; //Your feature request
-		String [] fr = featureRequest.split("\\W+");
-		String answer = args[1]; //answer 
-		String [] a = answer.split("\\W+");
+		String featureRequest = args[0].trim(); //Your feature request
+		String answer = args[1].trim(); //answer
+		String question = args[2]; //question
 		int s1, s2, s3; //structured representation of answers
-
+		String s4, s5, s6, s7;
+		
 		s1 = s1(featureRequest, answer);
-		if(s1 != -1){
-
-			s2 = s2(fr, a);
-			s3 = a.length;
-			System.out.println(s1 + ", " + s2 + ", " + s3);
-
-			Properties props = new Properties();
-			props.setProperty("ner.useSUTime", "false");
-			props.setProperty("annotators", " tokenize, ssplit, pos, lemma, ner, parse, dcoref ");
-			StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
-			
-			Annotation document = new Annotation(featureRequest);
-			pipeline.annotate(document);
-			List<CoreMap> sentences = document.get(SentencesAnnotation.class);
-			List<CoreLabel> tokens;
-			for (CoreMap sentence : sentences) {
-				tokens = sentence.get(TokensAnnotation.class);
-				for (CoreLabel token : tokens) {
-					String pos = token.get(PartOfSpeechAnnotation.class);//Get POS of each word
-					System.out.print(token + "/" + pos + " ");
-				}
-			}
+		if(s1 == -1){
+			System.out.println("Failed to read feature request. Exiting.");
+			System.exit(1);
 		}
+		
+		String [] fr /*= featureRequest.split("\\W+")*/; //words in feature request
+		String [] a = answer.split("\\W+"); //words in answer
+		String [] frPOS; //parts of speech for feature request 
+
+		Properties props = new Properties();
+		props.setProperty("ner.useSUTime", "false");
+		props.setProperty("annotators", " tokenize, ssplit, pos, lemma, ner, parse, dcoref ");
+		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+		Annotation document = new Annotation(featureRequest);
+
+		pipeline.annotate(document);
+		List<CoreMap> sentences = document.get(SentencesAnnotation.class);
+		List<CoreLabel> tokens;
+
+		// Stanford Core NLP POS
+		for(int i = 0; i < sentences.size(); i++){
+			CoreMap sentence = sentences.get(i);
+			tokens = sentence.get(TokensAnnotation.class);
+			fr = new String[tokens.size()]; 
+			frPOS = new String[tokens.size()]; //feature request parts of speech
+
+			for(int j = 0; j < tokens.size(); j++){
+				CoreLabel token = tokens.get(j); //get each token
+				fr[j] = token.get(TextAnnotation.class); //get each word
+				frPOS[j] = token.get(PartOfSpeechAnnotation.class); //get each POS
+				//System.out.print(fr[j] + "/" + frPOS[j] + " "); //for testing output of POS
+			}
+			
+			s2 = s2(fr, a);
+			s3 = s3(a);
+			s4 = s4(frPOS,s2-1); //remember that we started index at 1
+			s5 = s5(frPOS, s2-1, s3);
+			s6 = s6(frPOS, s2-1);
+			s7 = s7(frPOS, s2-1, s3);
+			System.out.printf("R%d\tQ%s\t%s\t%d\t%d\t%d\t%s\t%s\t%s\t%s\t", i+1, question, answer,s1,s2,s3,s4,s5,s6,s7);
+		}
+		
+		
+
 	}
 
 	public static int s1(String featureRequest, String answer){
@@ -56,5 +78,27 @@ public class POS {
 		if (s2 != -1)
 			return s2 +1; //start index at 1
 		return s2; //returns -1: error, not found
+	}
+	
+	public static int s3(String [] a){
+		return a.length;
+	}
+	
+	public static String s4(String [] frPOS, int s2){
+		return frPOS[s2];
+	}
+	
+	public static String s5(String [] frPOS, int s2, int s3){
+		return frPOS[s2+s3-1];
+	}
+	
+	public static String s6(String [] frPOS, int s2){
+		return frPOS[s2-1];
+	}
+	
+	public static String s7(String [] frPOS, int s2, int s3){
+		if(s2+s3 >= frPOS.length)
+			return "nil";
+		return frPOS[s2+s3];
 	}
 }
