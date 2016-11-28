@@ -1,0 +1,10 @@
+Q2	allow
+Q2	ignore
+Q2	show
+Q2	ignore
+Q2	allow
+Q2	add
+Q2	hide
+Q2	open
+Q2	add
+Q2	strike out

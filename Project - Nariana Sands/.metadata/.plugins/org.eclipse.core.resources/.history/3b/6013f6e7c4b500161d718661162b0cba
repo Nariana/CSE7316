@@ -60,10 +60,10 @@ public class POS {
 		String result = "";
 
 		s1 = s1(featureRequest, answer);
-		if(s1 == -1)
-			return "Failed to read feature request. Exiting.";
+		if(s1 == -1){
+			return("Failed to read feature request. Exiting.");
 			
-		
+		}
 
 		String [] fr /*= featureRequest.split("\\W+")*/; //words in feature request
 		String [] a = answer.split("\\W+"); //words in answer

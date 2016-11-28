@@ -80,3 +80,17 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.a
 2016-11-27 16:29:23,095 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
 2016-11-27 21:02:35,630 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
 2016-11-28 08:13:25,501 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2016-11-28 16:02:40,943 [Recommenders-Dependency-Info-Service-1] ERROR o.e.r.i.r.p.ClasspathEntryInfoProvider - Extracing jar information failed with exception.
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_45]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[na:1.8.0_45]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[na:1.8.0_45]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[na:1.8.0_45]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[na:1.8.0_45]
+	at org.eclipse.recommenders.utils.archive.ArchiveDetailsExtractor.<init>(ArchiveDetailsExtractor.java:43) ~[na:na]
+	at org.eclipse.recommenders.internal.rcp.providers.ClasspathEntryInfoProvider$3.run(ClasspathEntryInfoProvider.java:243) ~[na:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_45]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_45]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_45]

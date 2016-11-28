@@ -1,10 +1,16 @@
+import java.io.BufferedReader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Arrays;
 import java.util.Properties;
 import java.util.regex.Pattern;
+import java.util.stream.Stream;
+import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
@@ -23,7 +29,6 @@ public class POS {
 		
 		String request, featureRequest, question, answer;
 		try{
-			
 			List<String> features = Files.readAllLines(Paths.get(fr));
 			List<String> template = Files.readAllLines(Paths.get(fa));
 			
@@ -38,7 +43,7 @@ public class POS {
 				writer.write(features.get(i)+"\n");
 			}
 			
-			writer.close();
+			Files.write(lr, arg1, arg2)
 			
 		}catch(Exception e){
 			e.printStackTrace();
@@ -53,17 +58,16 @@ public class POS {
 //		String question = args[2].trim(); //question being answered
 //		String answer = args[3].trim(); //answer. Put in quotes.
 
-		System.out.printf("%s %s %s %s\n", request, featureRequest, question, answer);
 		//structured representation of answers
 		int s1, s2, s3; 
 		String s4, s5, s6, s7;
 		String result = "";
 
 		s1 = s1(featureRequest, answer);
-		if(s1 == -1)
-			return "Failed to read feature request. Exiting.";
-			
-		
+		if(s1 == -1){
+			System.out.println("Failed to read feature request. Exiting.");
+			System.exit(1);
+		}
 
 		String [] fr /*= featureRequest.split("\\W+")*/; //words in feature request
 		String [] a = answer.split("\\W+"); //words in answer
@@ -80,8 +84,8 @@ public class POS {
 		List<CoreLabel> tokens;
 
 		// Stanford Core NLP POS
-//		for(int i = 0; i < sentences.size(); i++){
-			CoreMap sentence = sentences.get(0);
+		for(int i = 0; i < sentences.size(); i++){
+			CoreMap sentence = sentences.get(i);
 			tokens = sentence.get(TokensAnnotation.class);
 			fr = new String[tokens.size()]; 
 			frPOS = new String[tokens.size()]; //feature request parts of speech
@@ -102,7 +106,7 @@ public class POS {
 //			System.out.printf("R%s\tQ%s\t%s\t%d\t%d\t%d\t%s\t%s\t%s\t%s\n", request, question, answer,s1,s2,s3,s4,s5,s6,s7);
 			result = String.format("R%s\tQ%s\t%s\t%d\t%d\t%d\t%s\t%s\t%s\t%s\n", request, question, answer,s1,s2,s3,s4,s5,s6,s7);
 			
-//		}
+		}
 		return result;
 
 

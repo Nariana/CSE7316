@@ -1,0 +1,50 @@
+Q2	Compare
+Q2	Need to exclude
+Q2	Break up
+Q2	Compare
+Q2	Preserve
+Q2	to ignore
+Q2	make
+Q2	allow
+Q2	allow
+Q2	allow
+Q2	add
+Q2	launch
+Q2	toggle
+Q2	filter
+Q2	display
+Q2	open
+Q2	compare
+Q2	support
+Q2	displaying
+Q2	compare
+Q2	allow
+Q2	allow
+Q2	add
+Q2	close
+Q2	compare
+Q2	rename
+Q2	add
+Q2	detect
+Q2	support
+Q2	enhance
+Q2	add
+Q2	show
+Q2	store
+Q2	run
+Q2	ignore
+Q2	limit
+Q2	merge
+Q2	please allow
+Q2	show
+Q2	start
+Q2	display
+Q2	print
+Q2	pass
+Q2	enable
+Q2	enable
+Q2	open
+Q2	open
+Q2	store
+Q2	maintain
+Q2	make

@@ -1,0 +1,10 @@
+Q1	comments
+Q1	part of a line
+Q1	diff button
+Q1	replacement
+Q1	fixed time difference
+Q1	possibility
+Q1	lines
+Q1	projects
+Q1	zoom ability
+Q1	removed lines

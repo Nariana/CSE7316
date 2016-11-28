@@ -60,10 +60,10 @@ public class POS {
 		String result = "";
 
 		s1 = s1(featureRequest, answer);
-		if(s1 == -1)
-			return "Failed to read feature request. Exiting.";
-			
-		
+		if(s1 == -1){
+			System.out.println("Failed to read feature request. Exiting.");
+			System.exit(1);
+		}
 
 		String [] fr /*= featureRequest.split("\\W+")*/; //words in feature request
 		String [] a = answer.split("\\W+"); //words in answer
@@ -80,8 +80,8 @@ public class POS {
 		List<CoreLabel> tokens;
 
 		// Stanford Core NLP POS
-//		for(int i = 0; i < sentences.size(); i++){
-			CoreMap sentence = sentences.get(0);
+		for(int i = 0; i < sentences.size(); i++){
+			CoreMap sentence = sentences.get(i);
 			tokens = sentence.get(TokensAnnotation.class);
 			fr = new String[tokens.size()]; 
 			frPOS = new String[tokens.size()]; //feature request parts of speech
@@ -102,7 +102,7 @@ public class POS {
 //			System.out.printf("R%s\tQ%s\t%s\t%d\t%d\t%d\t%s\t%s\t%s\t%s\n", request, question, answer,s1,s2,s3,s4,s5,s6,s7);
 			result = String.format("R%s\tQ%s\t%s\t%d\t%d\t%d\t%s\t%s\t%s\t%s\n", request, question, answer,s1,s2,s3,s4,s5,s6,s7);
 			
-//		}
+		}
 		return result;
 
 

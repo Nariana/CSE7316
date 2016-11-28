@@ -1,0 +1,50 @@
+Q1	folders
+Q1	folders
+Q1	long lines
+Q1	profiles
+Q1	creation date
+Q1	tabs and spaces
+Q1	unpacker extensions
+Q1	comments
+Q1	filenames
+Q1	instance
+Q1	pause button
+Q1	WinMerge
+Q1	view mode icons
+Q1	line difference
+Q1	cursor coordinates
+Q1	documents
+Q1	file parts
+Q1	partial line filters
+Q1	line numbers
+Q1	identification
+Q1	multiple comparisons
+Q1	double-click on tab
+Q1	rev-number
+Q1	buttons on the tabs
+Q1	XML tags
+Q1	tabs
+Q1	toolbar buttons
+Q1	moved files
+Q1	Windows 7 taskbar-based progress bar
+Q1	comparison statisics report
+Q1	Toolbar button
+Q1	warning
+Q1	compare method
+Q1	folder comparison
+Q1	paragraph returns
+Q1	text columns
+Q1	preceding and trailing whitespace
+Q1	ISO date format
+Q1	differences in display/?report
+Q1	WinMerge
+Q1	file timestamps
+Q1	Entire Manual
+Q1	line number
+Q1	syntax highlighting
+Q1	CTRL-C
+Q1	folder
+Q1	multiple conflict files
+Q1	list of the compared pairs of files/folders
+Q1	position of left/right file divider
+Q1	search dialog
