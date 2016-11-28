@@ -1,0 +1,5 @@
+*.jar
+*/stanford-corenlp-full-2016-10-31
+*/stanford-corenlp-full-2016-10-31/*.*
+/stanford-corenlp-full-2016-10-31/*.*
+*.xls

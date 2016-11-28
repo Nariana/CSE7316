@@ -1,0 +1,314 @@
+[
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b19a753fa40679d42f5a11aa9ad830ff82f623ac",
+    "jarFileModificationDate": "2015-05-06T20:20:35.749-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "79ca23ce08662e635b27070c31e7b01fc37b1aac",
+    "jarFileModificationDate": "2015-05-06T20:20:29.928-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "stanford-corenlp-3.7.0",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8e1c4b2c6bd22fdbb89a1a827139d04691956f40",
+    "jarFileModificationDate": "2016-11-26T16:06:13.632-06:00",
+    "location": "C:\\Users\\ysands\\Desktop\\Software Requirements\\CSE7316\\Project - Nariana Sands\\stanford-corenlp-full-2016-10-31\\stanford-corenlp-3.7.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "72c1737f3fe636369b6ac869e43506e898be8a78",
+    "jarFileModificationDate": "2015-05-06T20:20:28.852-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\access-bridge.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "44144f84a7052f33779cf02e398b25d55eb64098",
+    "jarFileModificationDate": "2015-05-06T20:20:29.429-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2a168e4dd5f0385ccde79ce9edf6643e6d1cbc97",
+    "jarFileModificationDate": "2015-05-06T20:20:29.928-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "88553ab42e6e28fed24abbddf0950446cadff267",
+    "jarFileModificationDate": "2015-05-06T20:20:35.281-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a2e21744247b625ed7e2050f03f3a80f3a255727",
+    "jarFileModificationDate": "2015-05-06T20:20:36.453-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\jfxrt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f715fedc4770a2b98436bb76ea6ca1779bd393be",
+    "jarFileModificationDate": "2015-05-06T20:20:29.944-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c35f8fe658e513eeef88cfe5ed98dc02e70c4e44",
+    "jarFileModificationDate": "2015-05-06T20:20:31.301-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "nu.xom",
+    "version": {
+      "major": 1,
+      "minor": 2,
+      "micro": 10,
+      "qualifier": "osgi"
+    },
+    "jarFileFingerprint": "4165e25bef19aad134f6498cc277110b9bc5e52b",
+    "jarFileModificationDate": "2016-11-26T16:07:28.924-06:00",
+    "location": "C:\\Users\\ysands\\Desktop\\Software Requirements\\CSE7316\\Project - Nariana Sands\\stanford-corenlp-full-2016-10-31\\xom.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "stanford-corenlp-3.7.0-models",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d0d90e0009489a921a99fd6ebaa70536e0ed5d67",
+    "jarFileModificationDate": "2016-11-26T16:07:28.771-06:00",
+    "location": "C:\\Users\\ysands\\Desktop\\Software Requirements\\CSE7316\\Project - Nariana Sands\\stanford-corenlp-full-2016-10-31\\stanford-corenlp-3.7.0-models.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9f22400c47d2419f421fff674d641efbba9d0334",
+    "jarFileModificationDate": "2015-05-06T20:20:29.491-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\nashorn.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "25239c1ee7fa0f451d74fb0f5adfc3c5245fa923",
+    "jarFileModificationDate": "2015-05-06T20:20:35.390-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e2de7dfcb8f3ee0335cf373fc1699154dfdc53cb",
+    "jarFileModificationDate": "2015-05-06T20:20:29.398-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "341f9d9a0b3fd8cfbefe0169b148dcc55688ee93",
+    "jarFileModificationDate": "2015-08-12T16:03:38-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\dns_sd.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "stanford-corenlp-3.7.0-sources",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a4fb0f9965f997ac48c0e9764aadf385958d3ebc",
+    "jarFileModificationDate": "2016-11-26T16:07:29.393-06:00",
+    "location": "C:\\Users\\ysands\\Desktop\\Software Requirements\\CSE7316\\Project - Nariana Sands\\stanford-corenlp-full-2016-10-31\\stanford-corenlp-3.7.0-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8abeb866dd408e58086d17f98e6f32b9a9c5051e",
+    "jarFileModificationDate": "2015-05-06T20:20:30.193-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c555d6db5d38a4edf85ae5c141fb891ba345cc3d",
+    "jarFileModificationDate": "2015-05-06T20:20:28.914-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\cldrdata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a3f1050c75d139479eb4fc100936fc08a9385bd1",
+    "jarFileModificationDate": "2015-05-06T20:20:29.944-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4c517b0332501940a54306743c233c6e5e15d2b2",
+    "jarFileModificationDate": "2015-05-06T20:20:29.944-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c0d380d591a6b204436015bb253123c9328cf0e7",
+    "jarFileModificationDate": "2015-05-06T20:20:30.334-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "joda-time",
+    "version": {
+      "major": 2,
+      "minor": 9,
+      "micro": 4,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1c295b462f16702ebe720bbb08f62e1ba80da41b",
+    "jarFileModificationDate": "2016-11-26T16:07:28.847-06:00",
+    "location": "C:\\Users\\ysands\\Desktop\\Software Requirements\\CSE7316\\Project - Nariana Sands\\stanford-corenlp-full-2016-10-31\\joda-time.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "08f0ee20ae71951a8e5d7e4a61fdbb1e902b167a",
+    "jarFileModificationDate": "2015-05-06T20:20:35.468-05:00",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_45\\lib\\jsse.jar",
+    "javaRuntime": true
+  }
+]

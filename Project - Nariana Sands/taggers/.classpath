@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/ysands/Desktop/Software Requirements/CSE7316/Project - Nariana Sands/stanford-corenlp-full-2016-10-31/stanford-corenlp-3.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ysands/Desktop/Software Requirements/CSE7316/Project - Nariana Sands/stanford-corenlp-full-2016-10-31/joda-time.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ysands/Desktop/Software Requirements/CSE7316/Project - Nariana Sands/stanford-corenlp-full-2016-10-31/xom.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ysands/Desktop/Software Requirements/CSE7316/Project - Nariana Sands/stanford-corenlp-full-2016-10-31/stanford-corenlp-3.7.0-models.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ysands/Desktop/Software Requirements/CSE7316/Project - Nariana Sands/stanford-corenlp-full-2016-10-31/stanford-corenlp-3.7.0-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.pipeline.StanfordCoreNLP"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.pipeline.Annotation"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.util.CoreMap"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.ling.CoreLabel"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+</qualifiedTypeNameHistroy>
