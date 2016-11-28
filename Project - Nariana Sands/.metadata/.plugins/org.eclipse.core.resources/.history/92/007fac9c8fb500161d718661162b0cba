@@ -63,7 +63,7 @@ public class POS {
 			s5 = s5(frPOS, s2-1, s3);
 			s6 = s6(frPOS, s2-1);
 			s7 = s7(frPOS, s2-1, s3);
-			System.out.printf("R%s\tQ%s\t%s\t%d\t%d\t%d\t%s\t%s\t%s\t%s\n", request, question, answer,s1,s2,s3,s4,s5,s6,s7);
+			System.out.printf("R%s\tQ%s\t%s\t%d\t%d\t%d\t%s\t%s\t%s\t%s\t", , question, answer,s1,s2,s3,s4,s5,s6,s7);
 		}
 		
 		

@@ -14,13 +14,10 @@ import edu.stanford.nlp.util.CoreMap;
 
 public class POS {
 	public static void main(String [] args){
-		String request = args[0].trim(); //Number of your feature request
-		String featureRequest = args[1].trim(); //Text for your feature request. Put in quotes.
-		String question = args[2].trim(); //question being answered
-		String answer = args[3].trim(); //answer. Put in quotes.
-		
-		//structured representation of answers
-		int s1, s2, s3; 
+		String featureRequest = args[0].trim(); //Your feature request
+		String answer = args[1].trim(); //answer
+		String question = args[2]; //question
+		int s1, s2, s3; //structured representation of answers
 		String s4, s5, s6, s7;
 		
 		s1 = s1(featureRequest, answer);
@@ -63,7 +60,7 @@ public class POS {
 			s5 = s5(frPOS, s2-1, s3);
 			s6 = s6(frPOS, s2-1);
 			s7 = s7(frPOS, s2-1, s3);
-			System.out.printf("R%s\tQ%s\t%s\t%d\t%d\t%d\t%s\t%s\t%s\t%s\n", request, question, answer,s1,s2,s3,s4,s5,s6,s7);
+			System.out.printf("R%d\tQ%s\t%s\t%d\t%d\t%d\t%s\t%s\t%s\t%s\t", i+1, question, answer,s1,s2,s3,s4,s5,s6,s7);
 		}
 		
 		
